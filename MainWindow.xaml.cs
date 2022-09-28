@@ -24,5 +24,21 @@ namespace ISPRO_PR1_1__Cherednichenko402
         {
             InitializeComponent();
         }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            textBox1.Text = "+++++";
+            form1.Background = Brushes.BlueViolet;
+        }
+
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
+            textBox1.Text = "******";
+        }
+
+        private void Button2_Click(object sender, RoutedEventArgs e)
+        {
+            textBox1.Clear();
+        }
     }
 }
